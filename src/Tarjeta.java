@@ -19,7 +19,9 @@ public class Tarjeta {
 	public void setTipoTarjeta(String tipoTarjeta) {
 		this.tipoTarjeta = tipoTarjeta;
 	}
-	public void ValidarTarejeta() {
-		
+	public void ValidarTarjeta(int setTipoTarjeta) {
+		if (setTipoTarjeta ==1) {
+			
+		}
 	}
 }

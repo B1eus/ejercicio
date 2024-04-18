@@ -15,21 +15,23 @@ public void setIdCajero(int idCajero) {
 	IdCajero = idCajero;
 }
 public void operarCajero() {
-	//objeto
-	Tarjeta tarjeta = new Tarjeta(null,null);
-	//scanner
-    Scanner lectura = new Scanner(System.in);
-    //Entrada
-    System.out.println("Ingrese la tarjeta");
-    String numeroTarjeta = lectura.next();
-    tarjeta.setNumeroTarjeta(numeroTarjeta);
+	CuentaBancaria cuentab =new CuentaBancaria(null, IdCajero);
+	int op = 0;
+	do {
+		
+    switch (op) {
     
-    System.out.println("1. Debito\n2. Credito\n");
-    String tipoTarjeta = lectura.next();
-    tarjeta.setTipoTarjeta(tipoTarjeta);
-    
-    Cliente cliente= new Cliente(IdCajero);
-    System.out.println("Ingrese la clave");
-    cliente.ingresarClave();
+      case 1:
+    	  System.out.println("Menu");
+    	  System.out.println("1. Consultar Saldo");
+    	  cuentab.consulatSaldo();
+      case 2:
+    	  System.out.println("2. Retirar");
+    	  cuentab.retirar(0);
+      case 3:
+    	  System.out.println("3. Depositar");
+    	  cuentab.depositar(0);;
+	}
+}while (op !=3);
 }
 }

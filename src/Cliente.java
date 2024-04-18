@@ -1,10 +1,13 @@
 
 public class Cliente {
 private int IdCliente;
+private int clave;
 
-public Cliente(int idCliente) {
+
+public Cliente(int idCliente,int clave) {
 	super();
 	IdCliente = idCliente;
+	this.clave = clave;
 }
 
 public int getIdCliente() {
@@ -17,8 +20,8 @@ public void setIdCliente(int idCliente) {
 public void ingresarTarjeta() {
 	
 }
-public void ingresarClave() {
-	
+public void ingresarClave(int nuevaClave) {
+	this.clave = nuevaClave;
 }
 public void SeleccionarOperacion() {
 	

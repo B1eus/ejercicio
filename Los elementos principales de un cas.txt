@@ -1,0 +1,10 @@
+Los elementos principales de un caso de uso en la metodología de desarrollo de software incluyen:
+
+Actor: Representa a un usuario o sistema externo que interactúa con el sistema bajo análisis. Puede ser una persona, otro sistema informático u otro dispositivo.
+Caso de uso: Describe una funcionalidad del sistema desde el punto de vista del usuario. Un caso de uso captura una unidad coherente de funcionalidad que el sistema proporciona a los usuarios.
+Relación de asociación entre Actor y Caso de uso: Indica la interacción entre un actor y un caso de uso. Un actor puede estar asociado con uno o varios casos de uso, y un caso de uso puede estar asociado con uno o varios actores.
+Escenario principal (flujo básico): Describe la secuencia de pasos que ocurren cuando un actor utiliza el sistema para lograr un objetivo específico.
+Escenarios alternativos: Representan las diferentes ramificaciones del flujo básico que pueden ocurrir en situaciones específicas, como excepciones, errores o decisiones del usuario.
+Precondiciones: Condiciones que deben ser verdaderas antes de que el caso de uso pueda ser ejecutado.
+Postcondiciones: Condiciones que serán verdaderas después de que el caso de uso haya sido ejecutado con éxito.
+Diagrama de casos de uso: Una representación gráfica de los casos de uso, actores y sus relaciones dentro del sistema, que proporciona una visión general de alto nivel de la funcionalidad del sistema y cómo los usuarios interactúan con él.
