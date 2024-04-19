@@ -19,9 +19,13 @@ public class Tarjeta {
 	public void setTipoTarjeta(String tipoTarjeta) {
 		this.tipoTarjeta = tipoTarjeta;
 	}
-	public void ValidarTarjeta(int setTipoTarjeta) {
-		if (setTipoTarjeta ==1) {
-			
-		}
+	public String ValidarTarjeta(String tipoTarjeta) {
+	    if (tipoTarjeta.equals("1")) {
+	        return "Tarjeta de débito";
+	    } else if (tipoTarjeta.equals("2")) {
+	        return "Tarjeta de crédito";
+	    } else {
+	        return "Inválido";
+	    }
 	}
 }

@@ -1,1 +1,3 @@
-Numero de tarjeta: jhfkd
+Numero de tarjeta: 1
+Tipo de tarjeta: Tarjeta de débito
+clave: 2

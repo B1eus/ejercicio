@@ -17,14 +17,10 @@ public int getIdCliente() {
 public void setIdCliente(int idCliente) {
 	IdCliente = idCliente;
 }
-public void ingresarTarjeta() {
-	
-}
+
 public void ingresarClave(int nuevaClave) {
 	this.clave = nuevaClave;
 }
-public void SeleccionarOperacion() {
-	
-}
+
 
 }
